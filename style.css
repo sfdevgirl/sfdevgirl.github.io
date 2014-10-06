@@ -126,6 +126,9 @@ footer a{
 	color: #FFFFFF;
 	
 }
+footer a:hover{
+	color: #AAAFB4;
+}
 .links{
 	text-align: justify;
   min-width: 600px;
