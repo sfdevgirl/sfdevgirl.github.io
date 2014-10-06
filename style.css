@@ -1,0 +1,142 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+/* End of Reset */
+body{
+	background-image: url(http://i1280.photobucket.com/albums/a487/sfdevgirl/Photobucket%20Desktop%20-%20PrettyBitchs%20MacBook%20Air/Downloads/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417_zps329be4bb.jpg);
+	background-size: cover;
+}
+.header{
+	width: 1050px;
+	margin:0 auto;
+	height: 250px;
+}
+h1{
+	color: #FFFFFF;
+	font-family: 'Chelsea Market';
+	font-size: 40px;
+	margin-top: 60px;
+}
+h2{
+	background-color: #d70406;
+	font-family: 'Fredoka One';
+	text-align: right;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 1px 3px;
+	margin-top: 5px;
+	height: 22px;
+
+}
+h3{
+	color: #FFFFFF;
+	font-family: 'Chelsea Market';
+	font-size: 40px;
+	margin-top: 60px;
+	text-align: right;
+}
+.container, .social {
+	margin: 0px auto;
+	width: 1050px;
+}
+.content{
+	 height: 125px;
+  text-align: justify;
+  min-width: 600px;
+}
+.content:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+
+p{
+	
+	font-family: 'Fredoka One', cursive;
+	font-size: 20px;
+	margin: 0;
+	letter-spacing: 0.4px;
+	padding-top: 5px;
+}
+.content div{
+	 width: 130px;
+  height: 100px;
+  display: inline-block;
+	}
+.tbd{
+	color:rgba(170,175,180,0.6);
+}
+.fa-5x,{
+	text-align: center;
+}
+.fa-folder-open-o{
+	margin: 0;
+}
+#current, #current a{
+	color: #FFFFFF;
+}
+#current a:hover{
+	color: #d70406;
+}
+#arrows{
+	margin-top: 100px;
+}
+footer{
+	background-color: #d70406;
+	color: #FFFFFF;
+	padding-top: 10px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}
+footer a{
+	color: #FFFFFF;
+	
+}
+.links{
+	text-align: justify;
+  min-width: 600px;
+  
+}
+.links a{
+	display: inline-block;
+	
+}
+.links:after{
+	content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
