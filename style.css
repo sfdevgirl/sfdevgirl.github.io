@@ -67,6 +67,9 @@ h3{
 	margin-top: 60px;
 	text-align: right;
 }
+h4{
+	text-align: left;
+}
 .container, .social {
 	margin: 0px auto;
 	width: 1050px;
