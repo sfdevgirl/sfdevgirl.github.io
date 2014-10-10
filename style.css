@@ -38,10 +38,10 @@ body{
 	background-image: url(http://i1280.photobucket.com/albums/a487/sfdevgirl/Photobucket%20Desktop%20-%20PrettyBitchs%20MacBook%20Air/Downloads/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417_zps329be4bb.jpg);
 	background-size: cover;
 }
-.header{
-	width: 1050px;
-	margin:0 auto;
-	height: 250px;
+.header {
+width: 1050px;
+margin: 0 auto;
+height: 102px;
 }
 h1{
 	color: #FFFFFF;
@@ -74,10 +74,16 @@ h4{
 	margin: 0px auto;
 	width: 1050px;
 }
-.content{
-	 height: 125px;
-  text-align: justify;
-  min-width: 600px;
+.content {
+height: 125px;
+text-align: justify;
+min-width: 600px;
+
+margin-top: 70px;
+}
+#bottom{
+	width: 800px;
+	margin-left: 150px;
 }
 .content:after {
   content: '';
@@ -94,7 +100,7 @@ p{
 	padding-top: 5px;
 }
 .content div{
-	 width: 130px;
+	 width: 143px;
   height: 100px;
   display: inline-block;
 	}
