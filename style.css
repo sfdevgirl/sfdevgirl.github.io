@@ -34,6 +34,45 @@ ol, ul {
     list-style: none;
 }
 /* End of Reset */
+
+@media only screen and (max-width: 500px) {
+  body{
+    overflow:hidden;
+  }
+  .header h1 {
+        font-size: 20px;
+    }
+  .header h2 {
+    text-align:left;
+    font-size:15px;
+  }
+  .container{
+    margin:0;
+    display:inline;
+    
+    
+    
+  }
+  #current{ }
+  #current, .tbd  {
+font-size:10px;
+    padding:0;
+    float:left;
+}
+  #current p, .tbd p{
+    font-size:12px;
+  }
+  footer{
+    height:30px;
+  }
+  .links{
+    
+   
+    display:none;
+  }
+  
+}
+
 body{
 	background-image: url(http://i1280.photobucket.com/albums/a487/sfdevgirl/Photobucket%20Desktop%20-%20PrettyBitchs%20MacBook%20Air/Downloads/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417_zps329be4bb.jpg);
 	background-size: cover;
@@ -79,11 +118,11 @@ height: 125px;
 text-align: justify;
 min-width: 600px;
 
-margin-top: 70px;
+margin-top: 170px;
 }
 #bottom{
 	width: 800px;
-	margin-left: 150px;
+	margin-left: 150px;i
 }
 .content:after {
   content: '';
@@ -106,6 +145,9 @@ p{
 	}
 .tbd{
 	color:rgba(170,175,180,0.6);
+}
+.progress{
+	
 }
 .fa-5x,{
 	text-align: center;
