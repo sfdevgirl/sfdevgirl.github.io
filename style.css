@@ -113,6 +113,9 @@ h4{
 	margin: 0px auto;
 	width: 1050px;
 }
+.empty{
+	height:209px;
+}
 .content {
 height: 116px;
 text-align: justify;
