@@ -141,6 +141,9 @@ p{
 	letter-spacing: 0.4px;
 	padding-top: 5px;
 }
+.name{
+	font-size: 15px;
+}
 .content div{
 	 width: 143px;
   height: 100px;
