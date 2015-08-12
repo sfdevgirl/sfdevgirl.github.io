@@ -203,3 +203,6 @@ footer a:hover{
 a {
 	color: #FFFFFF;
 }
+a h3{
+	text-decoration: none;
+}
